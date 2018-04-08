@@ -24,3 +24,33 @@ pip install djangorestframework
 ```sh
 pip install coreapi
 ```
+
+# Create project
+```sh
+django-admin startproject auth_api
+```
+
+# Create App
+```sh
+python manage.py startapp users
+python manage.py startapp todos
+```
+
+# Project structure
+```
+.
+├── README.md
+└── auth_api
+    ├── auth_api
+    ├── manage.py
+    ├── todos
+    └── users
+```
+# Implementation Steps
+```
+1. Create routing for auth_api/urls.py
+2. Create view auth_api/views.py
+
+3. Create routing for todos/urls.py
+4. Create routing for users/urls.py
+```
